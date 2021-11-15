@@ -20,7 +20,7 @@ That resulted in a **base64** message, decoded with the usual pipe of `echo "bas
 
 **Unfortunatly, this led to nowhere :(**.
 
-So I returned to the *.pcap* in order to find something else. In the **DNS messages** I noticed something strange. In a lot of traces with requests to a  variety of sites, I ***c***saw (xD) some odd sites that appears one following the other, for example:
+So I returned to the *.pcap* in order to find something else. In the **DNS messages** I noticed something strange. In a lot of traces with requests to a  variety of sites, I ***c***saw (xD) some odd sites that appear one following the other, for example:
 
 > JEdQR0dBLCwzMC4wLE4sMzUuMCxXLDcs.com  
 MDAsLDEwMDIwLjAsZnQsLCwsKjQ3.com
