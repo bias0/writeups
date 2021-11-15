@@ -25,7 +25,7 @@ So I returned to the *.pcap* in order to find something else. In the **DNS messa
 > JEdQR0dBLCwzMC4wLE4sMzUuMCxXLDcs.com  
 MDAsLDEwMDIwLjAsZnQsLCwsKjQ3.com
 
-![DNS Traffic example](constela/pcap-dns.png)
+![DNS Traffic example](constela/images/pcap-dns.png)
 
 
 Then, as before, I decoded it from base64 taking the concatenation of the two strings excpet the *.com*.
@@ -74,15 +74,15 @@ that takes all the frames that are coupled one after the other, without repeatin
 
 In the exploit I took the values (**321 locations**) of longitude, latitude and altitude in order to plot them, and after a lot of different tries (even a 3D plot with all the elements, quite beautiful).Finally I maneged to get the right combiantion: **Latitude and Altitude**, both with a max range of 25 different elements.
 
-![GPGGA extracted from json](constela/gpgga.png)
+![GPGGA extracted from json](constela/images/gpgga.png)
 
 ## The result is a square, that if shrunk a bit gives a **QR CODE** that returns the flag!
 
-![QR code](constela/qr-code.png)
+![QR code](constela/images/qr-code.png)
 
 > `flag{tH3_5chw1fTy_C0n3teLat10N}`
 
 The exploit can be found at [exploit.py](constela/exploit.py)
 
-<img src="constela/meme.jpg" alt="meme" width="300"/>
+<img src="constela/images/meme.jpg" alt="meme" width="300"/>
 
