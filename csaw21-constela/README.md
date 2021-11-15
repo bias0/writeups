@@ -85,4 +85,12 @@ In the exploit I took the values (**321 locations**) of longitude, latitude and 
 The exploit can be found at [exploit.py](constela/exploit.py)
 
 <img src="constela/images/meme.jpg" alt="meme" width="300"/>
+<br />
+<br />
+<br />
+<br />
 
+## GG to the author (not specified in the description, so thanks CSAW team), very funny chall!  
+<br />
+
+## See ya, biaso.
